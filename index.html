@@ -1,0 +1,268 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Merriweather&family=Style+Script&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+<header>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="grid-container">
+
+    <div class="grid-x align-middle">
+
+      <div class="cell medium-2 show-for-medium">
+        <a href="#events">Events</a>
+      </div>
+
+       <div class="cell medium-2 show-for-medium">
+        <a href="#restaurants">Restaurants</a>
+      </div>
+
+       <div class="cell logo medium-4 text-center">
+        <img src="img/logo.png">
+      </div>
+
+       <div class="cell show-for-medium medium-2 text-right">
+        <a href="#services">Services</a>
+      </div>
+
+       <div class="cell show-for-medium medium-2 text-right">
+        <a href="#Experiences">Experiences</a>
+      </div>
+
+    </div>
+
+  </div>
+</header>
+
+
+
+<section id="hero" class="hero">
+  
+<img src="img/hero.jpg" alt="hero" style="width: 100%">
+<h1>
+North Pole Inn
+</h1>
+</section>
+
+<section id="events" class="events">
+<h1>
+Events
+</h1>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y ">
+  <div class="cell medium-4 align-middle">
+
+    <img src="img/horses.jpg">
+<h1>
+Sleigh Rides
+</h1>
+<p>
+  Daily sleigh rides pulled by real reindeer!
+</p>
+  </div>
+
+<div class="cell medium-4 align-middle">
+  <img src="img/papersnowflake.jpg">
+  <h1>
+    Snowflake Signing
+  </h1>
+  <p>
+    Every guest gets to sign a snowflake for the wall in our main lobby!
+  </p>
+</div>
+
+<div class="cell medium-4 align-middle">
+
+<img src="img/gingerbread.jpg">
+<h1>
+  Gingerbread Houses
+</h1>
+<p>
+Come build gingerbread houses all day on Weekends year round!
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="restaurants" class="restaurants">
+<h1>
+Restaurants
+</h1>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y align-middle">
+   
+    <div class="cell medium-4">
+      <img src="img/restaurant.jpg">
+    </div>
+  
+    <div class="cell medium-8">
+    <p>
+      Enjoy our two holiday themed restaurants, and our holiday themed bar! Each one offers different holiday related meals and treats, as well as Christmas themed drinks. 
+    </p>
+
+  </div>
+</div>
+</section>
+
+<section id="services" class="services">
+<h1>
+Services
+</h1>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y ">
+
+
+    <div class="cell medium-4 align-middle">
+        <img src="img/pool.jpg">
+        <h1>
+          Pool
+        </h1>
+        <p>
+          Go for a swim in our outdoor swimming pool, overlooking the mountains
+        </p>
+    </div>
+    <div class="cell medium-4 align-middle">
+      <img src="img/spa.jpg">
+      <h1>
+        Spa
+      </h1>
+      <p>
+        Relax in our spa, which features mud wraps, facials, water therapy, and exfoliation
+      </p>
+    </div>
+    <div class="cell medium-4 align-middle">
+      <img src="img/fireplace.jpg">
+      <h1>
+Lobby Fireplace
+      </h1>
+      <p>
+        Sit by our fireplace in the lobby, which is lit 24/7 and sip on some hot cocoa
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id ="Experiences" class="Experiences">
+<h1>
+Experiences
+</h1>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y align-middle">
+
+    <div class="cell medium-8">
+      <p>
+        Daily visits from Santa!
+Give your children the chance to tell santa what they want most for Christmas!
+</p>
+    </div>
+
+    <div class="cell medium-4">
+      <img src="img/santa.jpg">
+    </div>
+  </div>
+</div>
+
+</section>
+    <!--
+
+    - datepicker widget (be careful when editing)
+    - displays two fields in two columns
+    - place this inside one of your page sections
+
+    -->
+
+    <table class="table">
+      <thead>
+        <tr class="grid-x">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+
+    <!--
+
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+
+    -->
+
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell">
+          <div class="overlay">
+            <h1>Success!</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+<footer>
+  <div class="grid-container">
+  <div class="grid-x grid-margin-x grid-margin-y align-middle">
+
+  <div class="cell medium-2">
+    <p>
+      Reservations  Events  Restaurants  Services  Live Experiences
+    </p>
+  </div>
+
+  <div class="cell medium-4">
+    <p>
+      Woodstock, New Hampshire
+  (603)122-5221
+    </p>
+  </div>
+   <div class="cell medium-6">
+    <img src="img/logo.png">
+  </div>
+</div>
+</div>
+</footer>
+
+
+  </body>
+
+</html>

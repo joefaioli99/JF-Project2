@@ -1,0 +1,161 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
+
+header{
+background-color: #00034F;
+color: #ffffff;
+font-family: 'Style Script', cursive;
+padding-bottom: .50rem;
+padding-top: .50rem;
+}
+
+header img{
+  width: 40%;
+}
+.hero{
+
+}
+
+.events{
+background-color: #E4F5FA;
+font-family: Merriweather;
+font-size: 30px;
+padding-top: 20px;
+}
+
+.events p{
+  text-align: center;
+}
+
+.restaurants{
+background-color: #fff;
+font-family: Merriweather;
+font-size: 30px;
+padding-top: 20px;
+}
+
+.services{
+background-color: #E4F5FA;
+font-family: Merriweather;
+font-size: 30px;
+padding-top: 20px;
+}
+
+.services p{
+  text-align: center;
+}
+
+.Experiences{
+background-color: #fff;
+font-family: Merriweather;
+font-size: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+footer{
+font-family: Merriweather;
+font-size: 30px;
+background-color: #00034F;
+color: #ffffff;
+}
+
+thead{
+  background-color: #E4F5FA;
+  font-family: Merriweather;
+}
+
+.reveal h2{
+  font-family: Merriweather;
+  color: black;
+
+}
+
+.reveal h1{
+  font-family: 'Cookie', cursive;
+  font-size: 70px;
+ 
+  color: black;
+}
+
+
+h1{
+  font-family: 'Cookie', cursive;
+  text-align: center;
+
+}
+header a{
+  color: white;
+  font-size: 40px;
+}
+header a:hover{
+  color: lightgray;
+}
+
+
+.reveal{
+  background-color: #F1F1F1;
+  color: #fff;
+  text-align: center;
+}
+
+.restaurants img{
+  padding-bottom: 30px;
+}
+
+.hero h1{
+  color: #fff;
+  z-index: 1;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  text-shadow: 0 0 20px black;
+  font-size: 100px;
+  background-color: ;
+}
+
+.hero{
+  display: grid;
+}
+
+.hero *{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+p{
+  font-size: 20px;
+}
+
+footer img{
+  width: 30%;
+}
+
+.button{
+  background-color: #00034F;
+}
+
+.button:hover{
+background-color: darkgray;
+}
